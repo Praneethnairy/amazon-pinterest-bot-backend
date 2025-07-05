@@ -548,7 +548,7 @@ async def get_privacy_policy():
 
     For questions about this privacy policy or our data practices:
 
-    - **Email:** privacy@automationcenter.com
+    - **Email:** sociorama2021@gmail.com
     - **Response Time:** Within 48 hours
     - **Data Protection Officer:** Available upon request
 
