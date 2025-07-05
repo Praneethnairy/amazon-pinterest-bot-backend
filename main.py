@@ -30,7 +30,7 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://localhost:3000", "https://amazonpinterestbot.vercel.app"],
+    allow_origins=["http://localhost:3000", "https://localhost:3000", "https://automationcenter.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -406,7 +406,7 @@ async def test_endpoint():
 async def get_privacy_policy():
     """Get the privacy policy"""
     privacy_policy = """
-    # Privacy Policy for Amazon Pinterest Automation App
+    # Privacy Policy for Automation Center App
 
     **Effective Date:** July 5, 2025
 
@@ -548,7 +548,7 @@ async def get_privacy_policy():
 
     For questions about this privacy policy or our data practices:
 
-    - **Email:** privacy@amazopinterestbot.com
+    - **Email:** privacy@automationcenter.com
     - **Response Time:** Within 48 hours
     - **Data Protection Officer:** Available upon request
 
